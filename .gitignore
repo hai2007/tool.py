@@ -6,3 +6,4 @@ node_modules
 dist
 basic_toolkit.egg-info
 build
+!docs/dist

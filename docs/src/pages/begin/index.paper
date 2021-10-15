@@ -4,7 +4,13 @@
             安装
         </header>
         <p>
-
+            首先你需要通过命令行安装，就像这样：
+        </p>
+        <pre q-code>
+            pip install basic-toolkit
+        </pre>
+        <p>
+            安装好了以后，在需要的地方引入对应的内容即可（在具体文档的开头会说明）。
         </p>
         <header>
             版本

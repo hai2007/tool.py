@@ -1,6 +1,6 @@
 <p align='center'>
     <a href='https://hai2007.github.io/tool.py' target='_blank'>
-        <img src='./logo.png'>
+        <img src='https://github.com/hai2007/tool.py/blob/master/logo.png'>
     </a>
 </p>
 

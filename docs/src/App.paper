@@ -1,6 +1,6 @@
 <template>
     <header>
-        <span>tool.py</span>
+        <span>basic-toolkit</span>
         <nav>
             <span @click='loadpage("begin","no")' :active='url=="begin"?"yes":"no"'>
                 开始

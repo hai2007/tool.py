@@ -3,3 +3,6 @@
 .project
 .vscode
 node_modules
+dist
+basic_toolkit.egg-info
+build

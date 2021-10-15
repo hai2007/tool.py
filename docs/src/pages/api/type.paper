@@ -2,4 +2,27 @@
     <header id='fixed-top'>
         值类型判断
     </header>
+    <pre q-code>
+from basic_toolkit import type
+    </pre>
+    <p>
+        type是一个用于提供类型判断的模块，上面有如下方法：
+    </p>
+    <pre q-code>
+type.isInt      type.isFloat        type.isComplex      type.isNumber
+type.isString
+type.isTuple
+type.isList
+type.isDictionary
+type.isSet
+    </pre>
+    <p>
+        上面的每个方法就是一种判断，比如：
+    </p>
+    <pre q-code>
+        flag = type.isString(data)
+    </pre>
+    <p>
+        返回的值flag是一个boolean类型，表示data是不是一个字符串，其余的类似。
+    </p>
 </template>

@@ -1,3 +1,6 @@
 #!/usr/bin/python3
 
-import type
+from basic_toolkit import type
+
+val=1
+print(type.isNumber(val))

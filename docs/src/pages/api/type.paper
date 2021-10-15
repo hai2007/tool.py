@@ -1,0 +1,5 @@
+<template class='doc-view'>
+    <header id='fixed-top'>
+        值类型判断
+    </header>
+</template>

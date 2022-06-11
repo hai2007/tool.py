@@ -7,3 +7,4 @@ dist
 basic_toolkit.egg-info
 build
 !docs/dist
+__pycache__

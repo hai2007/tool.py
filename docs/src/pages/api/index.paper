@@ -5,6 +5,47 @@
                 <h3 @click='openPage("type","top","no")'>值类型判断</h3>
             </li>
         </ul>
+        <ul :active='pagename=="hermite"?"yes":"no"'>
+            <li>
+                <h3 @click='openPage("hermite","top","no")'>Hermite 插值</h3>
+                <ul>
+                    <li>
+                        <h4 @click='doScroll("constructor")'>
+                            构造器
+                        </h4>
+                        <ul>
+                            <li>
+                                <h5 @click='doScroll("constructor-1")'>
+                                    Render()
+                                </h5>
+                            </li>
+                            <li>
+                                <h5 @click='doScroll("constructor-2")'>
+                                    Render(u)
+                                </h5>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4 @click='doScroll("object-method")'>
+                            对象方法
+                        </h4>
+                        <ul>
+                            <li>
+                                <h5 @click='doScroll("object-method-1")'>
+                                    setP
+                                </h5>
+                            </li>
+                            <li>
+                                <h5 @click='doScroll("object-method-2")'>
+                                    valueOf
+                                </h5>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
     <div id='root-view' class='view'>
         <div>
@@ -16,7 +57,8 @@
     import fixedScroll from '../../Service/fixedScroll.js';
 
     let pages = {
-        type: () => import('./type.paper')
+        type: () => import('./type.paper'),
+        hermite: () => import('./hermite.paper')
     };
 
     export default {

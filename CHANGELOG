@@ -2,3 +2,7 @@ v0.2.0:
     date:2021-10-15
     changes:
       -  初始化版本
+v0.2.1:
+    date:2022-06-17
+    changes:
+      -   新增 ```Hermite 插值```

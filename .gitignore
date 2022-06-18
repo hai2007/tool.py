@@ -4,7 +4,7 @@
 .vscode
 node_modules
 dist
-basic_toolkit.egg-info
 build
-!docs/dist
+basic_toolkit.egg-info
+!docs/build
 __pycache__

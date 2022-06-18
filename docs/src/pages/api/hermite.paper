@@ -1,0 +1,38 @@
+<template class='doc-view'>
+    <header id='fixed-top'>
+        Hermite 插值
+    </header>
+    <pre q-code>
+        from basic_toolkit.math import hermite
+    </pre>
+    <h2 id='fixed-constructor'>
+        构造器
+    </h2>
+    <h3 id="fixed-constructor-1">
+        Render
+    </h3>
+    <pre q-code>
+h = hermite.Render()
+    </pre>
+    <h3 id="fixed-constructor-2">
+        Render(u)
+    </h3>
+    <pre q-code>
+h = hermite.Render(0.5)
+    </pre>
+    <h2 id='fixed-object-method'>
+        对象方法
+    </h2>
+    <h3 id="fixed-object-method-1">
+        setP
+    </h3>
+    <pre q-code>
+h.setP(x1, y1, x2, y2, s1, s2);
+    </pre>
+    <h3 id="fixed-object-method-2">
+        valueOf
+    </h3>
+    <pre q-code>
+y = h.valueOf(x);
+    </pre>
+</template>

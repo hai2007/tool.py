@@ -117,19 +117,19 @@ class Render:
         self.matrix4 = initMatrix
 
     # 移动
-    def move(self, dis, a, b, c):
+    def move(self, dis, a, b, c=0):
         self.matrix4 = _multiply(_move(dis, a, b, c), self.matrix4)
         return self
 
     # 旋转
-    def rotate(self, deg, a1, b1, c1, a2, b2, c2):
+    def rotate(self, deg, a1, b1, c1=False, a2=False, b2=False, c2=False):
         matrix4s = _transform(a1, b1, c1, a2, b2, c2)
         self.matrix4 = _multiply(
             _multiply(_multiply(matrix4s[1], _rotate(deg)), matrix4s[0]), self.matrix4)
         return self
 
     # 缩放
-    def scale(self, xTimes, yTimes, zTimes, cx, cy, cz):
+    def scale(self, xTimes, yTimes, zTimes, cx=0, cy=0, cz=0):
         self.matrix4 = _multiply(
             _scale(xTimes, yTimes, zTimes, cx, cy, cz), self.matrix4)
         return self

@@ -15,9 +15,8 @@ class Render:
     MR = [0, 0, 0, 0]
     isSetP = False
 
-    def __init__(self, u):
-        if(u):
-            self.u = u
+    def __init__(self, u=0.5):
+        self.u = u
 
     def setP(self, x1, y1, x2, y2,  s1, s2):
         if(x1 < x2):
@@ -45,6 +44,8 @@ class Render:
             self.MR[3] = y1
 
             self.isSetP = True
+
+            return self
 
         else:
             raise Exception("The point x-position should be increamented!")

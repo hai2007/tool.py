@@ -13,12 +13,12 @@ var script =__etcpack__scope_args__.default;
 
 
     // 导入css
-__etcpack__scope_args__=window.__etcpack__getBundle('36');
+__etcpack__scope_args__=window.__etcpack__getBundle('37');
 
 
     script.render=function(createElement){
 
-        return createElement('div',{"class":"nav-view","quickpaper":"","data-quickpaper-aa5c6c28":""},[createElement('div',{"class":"menu","data-quickpaper-aa5c6c28":""},[createElement('ul',{":active":"pagename==\"type\"?\"yes\":\"no\"","data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h3',{"@click":"openPage(\"type\",\"top\",\"no\")","data-quickpaper-aa5c6c28":""},["值类型判断"])])]),createElement('ul',{":active":"pagename==\"hermite\"?\"yes\":\"no\"","data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h3',{"@click":"openPage(\"hermite\",\"top\",\"no\")","data-quickpaper-aa5c6c28":""},["Hermite 插值"]),createElement('ul',{"data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h4',{"@click":"doScroll(\"constructor\")","data-quickpaper-aa5c6c28":""},["构造器"]),createElement('ul',{"data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"constructor-1\")","data-quickpaper-aa5c6c28":""},["Render()"])]),createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"constructor-2\")","data-quickpaper-aa5c6c28":""},["Render(u)"])])])]),createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h4',{"@click":"doScroll(\"object-method\")","data-quickpaper-aa5c6c28":""},["对象方法"]),createElement('ul',{"data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"object-method-1\")","data-quickpaper-aa5c6c28":""},["setP"])]),createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"object-method-2\")","data-quickpaper-aa5c6c28":""},["valueOf"])])])])])])])]),createElement('div',{"id":"root-view","class":"view","data-quickpaper-aa5c6c28":""},[createElement('div',{"data-quickpaper-aa5c6c28":""},[createElement('component',{":is":"page","data-quickpaper-aa5c6c28":""},[])])])])
+        return createElement('div',{"class":"nav-view","quickpaper":"","data-quickpaper-aa5c6c28":""},[createElement('div',{"class":"menu","data-quickpaper-aa5c6c28":""},[createElement('ul',{":active":"pagename==\"type\"?\"yes\":\"no\"","data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h3',{"@click":"openPage(\"type\",\"top\",\"no\")","data-quickpaper-aa5c6c28":""},["值类型判断"])])]),createElement('ul',{":active":"pagename==\"hermite\"?\"yes\":\"no\"","data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h3',{"@click":"openPage(\"hermite\",\"top\",\"no\")","data-quickpaper-aa5c6c28":""},["Hermite 插值"]),createElement('ul',{"data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h4',{"@click":"doScroll(\"constructor\")","data-quickpaper-aa5c6c28":""},["构造器"]),createElement('ul',{"data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"constructor-1\")","data-quickpaper-aa5c6c28":""},["Render()"])]),createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"constructor-2\")","data-quickpaper-aa5c6c28":""},["Render(u)"])])])]),createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h4',{"@click":"doScroll(\"object-method\")","data-quickpaper-aa5c6c28":""},["对象方法"]),createElement('ul',{"data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"object-method-1\")","data-quickpaper-aa5c6c28":""},["setP"])]),createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h5',{"@click":"doScroll(\"object-method-2\")","data-quickpaper-aa5c6c28":""},["valueOf"])])])])])])]),createElement('ul',{":active":"pagename==\"matrix4\"?\"yes\":\"no\"","data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h3',{"@click":"openPage(\"matrix4\",\"top\",\"no\")","data-quickpaper-aa5c6c28":""},["列主序存储的4x4矩阵"]),createElement('ul',{"data-quickpaper-aa5c6c28":""},[createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h4',{"@click":"doScroll(\"matrix4-basic\")","data-quickpaper-aa5c6c28":""},["基本运算"])]),createElement('li',{"data-quickpaper-aa5c6c28":""},[createElement('h4',{"@click":"doScroll(\"matrix4-calc\")","data-quickpaper-aa5c6c28":""},["坐标变换"])])])])])]),createElement('div',{"id":"root-view","class":"view","data-quickpaper-aa5c6c28":""},[createElement('div',{"data-quickpaper-aa5c6c28":""},[createElement('component',{":is":"page","data-quickpaper-aa5c6c28":""},[])])])])
 
     };
 
@@ -40,7 +40,8 @@ var fixedScroll =__etcpack__scope_args__.default;
 
     let pages = {
         type: () => window.__etcpack__getLazyBundle('./build/main@v0.2.1-bundle3.js','34'),
-        hermite: () => window.__etcpack__getLazyBundle('./build/main@v0.2.1-bundle4.js','35')
+        hermite: () => window.__etcpack__getLazyBundle('./build/main@v0.2.1-bundle4.js','35'),
+        matrix4: () => window.__etcpack__getLazyBundle('./build/main@v0.2.1-bundle5.js','36')
     };
 
     __etcpack__scope_bundle__.default= {
@@ -239,7 +240,7 @@ __etcpack__scope_bundle__.default= function (doback, duration, callback) {
 /*************************** [bundle] ****************************/
 // Original file:./src/pages/api/index.paper?QuickPaper&type=style&lang=css&hash=aa5c6c28
 /*****************************************************************/
-window.__etcpack__bundleSrc__['36']=function(){
+window.__etcpack__bundleSrc__['37']=function(){
     var __etcpack__scope_bundle__={};
     var __etcpack__scope_args__;
     var styleElement = document.createElement('style');

@@ -4,7 +4,7 @@
   "description": "tool.py文档",
   "scripts": {
     "dev": "etcpack_dev --config etcpack.dev.js",
-    "build": "etcpack_pkg --config etcpack.prod.js"
+    "build": "nodejs -e build && etcpack_pkg --config etcpack.prod.js"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -15,6 +15,7 @@
     "@etcpack/quickpaper-loader-plug": "^0.1.0",
     "@etcpack/quickpaper-style-loader": "^0.1.0",
     "@etcpack/scss-loader": "^0.1.2",
+    "@hai2007/nodejs": "^3.0.1",
     "etcpack": "^0.5.4"
   },
   "dependencies": {

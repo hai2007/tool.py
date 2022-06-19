@@ -96,7 +96,8 @@ def _transform(a1, b1, c1, a2, b2, c2):
 
 
 def _multiply(matrix4, param):
-    newParam = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    newParam = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                0, 0] if (len(param)*0.25 == 4) else [0, 0, 0, 0]
     for i in range(4):
         for j in range(int(len(param)*0.25)):
             newParam[j * 4 + i] = matrix4[i] * param[j * 4] + matrix4[i + 4] * param[j *

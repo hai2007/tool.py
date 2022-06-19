@@ -46,6 +46,23 @@
                 </ul>
             </li>
         </ul>
+        <ul :active='pagename=="matrix4"?"yes":"no"'>
+            <li>
+                <h3 @click='openPage("matrix4","top","no")'>列主序存储的4x4矩阵</h3>
+                <ul>
+                    <li>
+                        <h4 @click='doScroll("matrix4-basic")'>
+                            基本运算
+                        </h4>
+                    </li>
+                    <li>
+                        <h4 @click='doScroll("matrix4-calc")'>
+                            坐标变换
+                        </h4>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
     <div id='root-view' class='view'>
         <div>
@@ -58,7 +75,8 @@
 
     let pages = {
         type: () => import('./type.paper'),
-        hermite: () => import('./hermite.paper')
+        hermite: () => import('./hermite.paper'),
+        matrix4: () => import('./matrix4.paper')
     };
 
     export default {

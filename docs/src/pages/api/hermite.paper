@@ -27,12 +27,12 @@ h = hermite.Render(0.5)
         setP
     </h3>
     <pre q-code>
-h.setP(x1, y1, x2, y2, s1, s2);
+h.setP(x1, y1, x2, y2, s1, s2)
     </pre>
     <h3 id="fixed-object-method-2">
         valueOf
     </h3>
     <pre q-code>
-y = h.valueOf(x);
+y = h.valueOf(x)
     </pre>
 </template>

@@ -4,11 +4,11 @@ from setuptools import setup
 
 setup(
     name='basic_toolkit',
-    version='0.2.1',
+    version='0.3.0',
     description='python3常用的工具类方法汇总',
     author='hai2007',
     author_email='2501482523@qq.com',
-    packages=['basic_toolkit'],
+    packages=['basic_toolkit','basic_toolkit.math'],
     url='https://github.com/hai2007/tool.py',
     license='MIT',
     classifiers=[

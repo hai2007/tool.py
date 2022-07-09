@@ -136,7 +136,7 @@ class Render:
 
     # 乘法
     # 可以传入一个矩阵(matrix4,flag)
-    def multiply(self, newMatrix4, flag):
+    def multiply(self, newMatrix4, flag=False):
         self.matrix4 = _multiply(self.matrix4, newMatrix4) if flag else _multiply(
             newMatrix4, self.matrix4)
         return self
